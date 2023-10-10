@@ -17,21 +17,20 @@ jobs:
         dotnet-version: 7.x
 
     - name: Restore packages
-      working-directory: GildedRose
-      run: dotnet restore
+      run: dotnet restore GidedRose
 
     - name: Build application
-      working-directory: GildedRose
+      working-directory: GidedRose
       run: dotnet build --configuration Release
 
     - name: Run unit tests
-      working-directory: GildedRose
+      working-directory: GidedRose
       run: dotnet test --configuration Release --no-restore
 
     - name: Publish artifacts
       if: success()
       run: |
-        dotnet publish GildedRose -c Release -o publish  # Spécifier le dossier source ici
+        dotnet publish GidedRose -c Release -o publish  # Spécifier le dossier source ici
         mv publish ${{ github.workspace }}/app
 
     - name: Archive artifacts
