@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GidedRose", "GidedRose\GidedRose.csproj", "{5C4E3026-C3C0-4561-89F4-B4F2F361897C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GidedRose.Tests", "GidedRose.Tests\GidedRose.Tests.csproj", "{416DD0E8-68B5-4451-956C-99A258198B39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C4E3026-C3C0-4561-89F4-B4F2F361897C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4E3026-C3C0-4561-89F4-B4F2F361897C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4E3026-C3C0-4561-89F4-B4F2F361897C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4E3026-C3C0-4561-89F4-B4F2F361897C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416DD0E8-68B5-4451-956C-99A258198B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416DD0E8-68B5-4451-956C-99A258198B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416DD0E8-68B5-4451-956C-99A258198B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416DD0E8-68B5-4451-956C-99A258198B39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
